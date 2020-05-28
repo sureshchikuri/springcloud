@@ -69,7 +69,7 @@
 					<archive>
 						<manifest>
 							                            <!-- Provide complete main class details of the project (PackageName.Class) -->
-							<mainClass>com.sri.airgo.SpringCloudConfigAppApplication</mainClass>
+							<mainClass>com.example.demo.SpringCloudConfigAppApplication</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
