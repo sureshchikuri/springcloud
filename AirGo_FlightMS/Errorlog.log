@@ -1,0 +1,434 @@
+"2020-05-20 03:11:16  INFO [main] com.sri.airgo.AirGoFlightMsApplication [logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+""2020-05-20 03:11:17  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [multipleStoresDetected] - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-05-20 03:11:17  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+""2020-05-20 03:11:17  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn] - Finished Spring Data repository scanning in 41ms. Found 1 JPA repository interfaces.
+""2020-05-20 03:11:17  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [multipleStoresDetected] - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-05-20 03:11:17  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+""2020-05-20 03:11:17  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [isStrictRepositoryCandidate] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sri.airgo.repostory.FlightsRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+""2020-05-20 03:11:17  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn] - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+""2020-05-20 03:11:17  INFO [main] org.springframework.cloud.context.scope.GenericScope [setSerializationId] - BeanFactory id=5bc7ab67-8c15-36ed-8098-b05b3d84ddbf
+""2020-05-20 03:11:18  INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization] - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$5ee89158] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-05-20 03:11:18  INFO [main] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [afterPropertiesSet] - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2020-05-20 03:11:18  INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d66acf56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-05-20 03:11:18  INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [initialize] - Tomcat initialized with port(s): 8082 (http)
+""2020-05-20 03:11:18  INFO [main] org.apache.catalina.core.StandardService [log] - Starting service [Tomcat]
+""2020-05-20 03:11:18  INFO [main] org.apache.catalina.core.StandardEngine [log] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+""2020-05-20 03:11:18  INFO [main] org.apache.jasper.servlet.TldScanner [log] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+""2020-05-20 03:11:18  INFO [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/InfyGoBoot] [log] - Initializing Spring embedded WebApplicationContext
+""2020-05-20 03:11:18  INFO [main] org.springframework.web.context.ContextLoader [prepareWebApplicationContext] - Root WebApplicationContext: initialization completed in 1769 ms
+""2020-05-20 03:11:18  WARN [main] com.netflix.config.sources.URLConfigurationSource [<init>] - No URLs will be polled as dynamic configuration sources.
+""2020-05-20 03:11:18  INFO [main] com.netflix.config.sources.URLConfigurationSource [<init>] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2020-05-20 03:11:18  INFO [main] com.netflix.config.DynamicPropertyFactory [getInstance] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@58af5076
+""2020-05-20 03:11:18  WARN [main] org.springframework.boot.actuate.endpoint.EndpointId [logWarning] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+""2020-05-20 03:11:18  INFO [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [initialize] - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-05-20 03:11:18  INFO [main] com.zaxxer.hikari.HikariDataSource [getConnection] - HikariPool-1 - Starting...
+""2020-05-20 03:11:18  WARN [main] com.zaxxer.hikari.util.DriverDataSource [<init>] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+""2020-05-20 03:11:19  INFO [main] com.zaxxer.hikari.HikariDataSource [getConnection] - HikariPool-1 - Start completed.
+""2020-05-20 03:11:19  INFO [task-1] org.hibernate.jpa.internal.util.LogHelper [logPersistenceUnitInformation] - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-05-20 03:11:19  WARN [main] com.netflix.config.sources.URLConfigurationSource [<init>] - No URLs will be polled as dynamic configuration sources.
+""2020-05-20 03:11:19  INFO [main] com.netflix.config.sources.URLConfigurationSource [<init>] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2020-05-20 03:11:19  INFO [task-1] org.hibernate.Version [logVersion] - HHH000412: Hibernate ORM core version 5.4.15.Final
+""2020-05-20 03:11:19  WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [openEntityManagerInViewInterceptor] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-05-20 03:11:19  INFO [task-1] org.hibernate.annotations.common.Version [<clinit>] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2020-05-20 03:11:19  INFO [task-1] org.hibernate.dialect.Dialect [<init>] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+""2020-05-20 03:11:19  INFO [task-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [initiateService] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-05-20 03:11:19  INFO [task-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-05-20 03:11:20  WARN [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [refresh] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'reactiveHealthIndicatorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/LegacyHealthEndpointCompatibilityConfiguration$LegacyReactiveHealthEndpointCompatibilityConfiguration.class]: Unsatisfied dependency expressed through method 'reactiveHealthIndicatorRegistry' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'reactiveHealthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/ReactiveHealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'reactiveHealthContributorRegistry' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'discoveryCompositeHealthIndicator' defined in class path resource [org/springframework/cloud/client/CommonsClientAutoConfiguration$DiscoveryLoadBalancerConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.client.discovery.health.DiscoveryCompositeHealthIndicator]: Factory method 'discoveryCompositeHealthIndicator' threw exception; nested exception is java.lang.NoSuchMethodError: org.springframework.boot.actuate.health.CompositeHealthIndicator.<init>(Lorg/springframework/boot/actuate/health/HealthAggregator;)V
+""2020-05-20 03:11:20  INFO [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [destroy] - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-05-20 03:11:20  INFO [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [shutdown] - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-05-20 03:11:20  INFO [main] com.zaxxer.hikari.HikariDataSource [close] - HikariPool-1 - Shutdown initiated...
+""2020-05-20 03:11:20  INFO [main] com.zaxxer.hikari.HikariDataSource [close] - HikariPool-1 - Shutdown completed.
+""2020-05-20 03:11:20  INFO [main] org.apache.catalina.core.StandardService [log] - Stopping service [Tomcat]
+""2020-05-20 03:11:20  INFO [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [logMessage] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2020-05-20 03:11:20 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [report] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.cloud.client.discovery.health.DiscoveryCompositeHealthIndicator.<init>(DiscoveryCompositeHealthIndicator.java:41)
+
+The following method did not exist:
+
+    org.springframework.boot.actuate.health.CompositeHealthIndicator.<init>(Lorg/springframework/boot/actuate/health/HealthAggregator;)V
+
+The method's class, org.springframework.boot.actuate.health.CompositeHealthIndicator, is available from the following locations:
+
+    jar:file:/Users/suresh/.m2/repository/org/springframework/boot/spring-boot-actuator/2.3.0.RELEASE/spring-boot-actuator-2.3.0.RELEASE.jar!/org/springframework/boot/actuate/health/CompositeHealthIndicator.class
+
+It was loaded from the following location:
+
+    file:/Users/suresh/.m2/repository/org/springframework/boot/spring-boot-actuator/2.3.0.RELEASE/spring-boot-actuator-2.3.0.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.springframework.boot.actuate.health.CompositeHealthIndicator
+
+""2020-05-20 03:11:20  WARN [main] org.springframework.boot.SpringApplication [handleRunFailure] - Unable to close ApplicationContext
+"org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:512) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:245) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:197) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:134) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:81) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:67) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:167) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:978) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at com.sri.airgo.AirGoFlightMsApplication.main(AirGoFlightMsApplication.java:10) [classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1141) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1114) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:506) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	... 18 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:814) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1282) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:297) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:276) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.postProcessBeforeInitialization(ConfigurationClassPostProcessor.java:456) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	... 40 common frames omitted
+"2020-05-20 03:35:26  INFO [main] com.sri.airgo.AirGoFlightMsApplication [logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+""2020-05-20 03:35:26  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [multipleStoresDetected] - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-05-20 03:35:26  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+""2020-05-20 03:35:26  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn] - Finished Spring Data repository scanning in 37ms. Found 1 JPA repository interfaces.
+""2020-05-20 03:35:26  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [multipleStoresDetected] - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-05-20 03:35:26  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+""2020-05-20 03:35:26  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [isStrictRepositoryCandidate] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sri.airgo.repostory.FlightsRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+""2020-05-20 03:35:26  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn] - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+""2020-05-20 03:35:26  INFO [main] org.springframework.cloud.context.scope.GenericScope [setSerializationId] - BeanFactory id=df9cc8f2-a57d-38d3-a8e9-8f1dbf741e56
+""2020-05-20 03:35:26  INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization] - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$fa798d59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-05-20 03:35:27  INFO [main] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [afterPropertiesSet] - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2020-05-20 03:35:27  INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$71fbcb57] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-05-20 03:35:27  INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [initialize] - Tomcat initialized with port(s): 8082 (http)
+""2020-05-20 03:35:27  INFO [main] org.apache.catalina.core.StandardService [log] - Starting service [Tomcat]
+""2020-05-20 03:35:27  INFO [main] org.apache.catalina.core.StandardEngine [log] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+""2020-05-20 03:35:27  INFO [main] org.apache.jasper.servlet.TldScanner [log] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+""2020-05-20 03:35:27  INFO [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/InfyGoBoot] [log] - Initializing Spring embedded WebApplicationContext
+""2020-05-20 03:35:27  INFO [main] org.springframework.web.context.ContextLoader [prepareWebApplicationContext] - Root WebApplicationContext: initialization completed in 1395 ms
+""2020-05-20 03:35:27  INFO [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [initialize] - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-05-20 03:35:27  INFO [main] com.zaxxer.hikari.HikariDataSource [getConnection] - HikariPool-1 - Starting...
+""2020-05-20 03:35:27  WARN [main] com.zaxxer.hikari.util.DriverDataSource [<init>] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+""2020-05-20 03:35:27  INFO [main] com.zaxxer.hikari.HikariDataSource [getConnection] - HikariPool-1 - Start completed.
+""2020-05-20 03:35:28  INFO [task-1] org.hibernate.jpa.internal.util.LogHelper [logPersistenceUnitInformation] - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-05-20 03:35:28  INFO [task-1] org.hibernate.Version [logVersion] - HHH000412: Hibernate ORM core version 5.4.15.Final
+""2020-05-20 03:35:28  WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [openEntityManagerInViewInterceptor] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-05-20 03:35:28  INFO [task-1] org.hibernate.annotations.common.Version [<clinit>] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2020-05-20 03:35:28  INFO [task-1] org.hibernate.dialect.Dialect [<init>] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+""2020-05-20 03:35:28  INFO [task-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [initiateService] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-05-20 03:35:28  INFO [task-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-05-20 03:35:29  INFO [main] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [<init>] - Exposing 2 endpoint(s) beneath base path '/actuator'
+""2020-05-20 03:35:29  INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [start] - Tomcat started on port(s): 8082 (http) with context path '/InfyGoBoot'
+""2020-05-20 03:35:29  INFO [main] org.springframework.data.repository.config.DeferredRepositoryInitializationListener [onApplicationEvent] - Triggering deferred initialization of Spring Data repositories…
+""2020-05-20 03:35:29  INFO [main] org.springframework.data.repository.config.DeferredRepositoryInitializationListener [onApplicationEvent] - Spring Data repositories initialized!
+""2020-05-20 03:35:29  INFO [main] com.sri.airgo.AirGoFlightMsApplication [logStarted] - Started AirGoFlightMsApplication in 22.51 seconds (JVM running for 27.908)
+""2020-05-20 03:36:19  INFO [http-nio-8082-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/InfyGoBoot] [log] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+""2020-05-20 03:36:19  INFO [http-nio-8082-exec-2] org.springframework.web.servlet.DispatcherServlet [initServletBean] - Initializing Servlet 'dispatcherServlet'
+""2020-05-20 03:36:19  INFO [http-nio-8082-exec-2] org.springframework.web.servlet.DispatcherServlet [initServletBean] - Completed initialization in 7 ms
+""2020-05-20 03:36:36  INFO [RMI TCP Connection(10)-127.0.0.1] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [shutdown] - Application shutdown requested.
+""2020-05-20 03:36:36  INFO [RMI TCP Connection(10)-127.0.0.1] org.apache.catalina.core.StandardService [log] - Stopping service [Tomcat]
+""2020-05-20 03:36:36  INFO [RMI TCP Connection(10)-127.0.0.1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/InfyGoBoot] [log] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+""2020-05-20 03:36:36  INFO [RMI TCP Connection(10)-127.0.0.1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [destroy] - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-05-20 03:36:36  INFO [RMI TCP Connection(10)-127.0.0.1] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [shutdown] - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-05-20 03:36:36  INFO [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource [close] - HikariPool-1 - Shutdown initiated...
+""2020-05-20 03:36:36  INFO [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource [close] - HikariPool-1 - Shutdown completed.
+""2020-05-20 05:51:45  INFO [main] com.sri.airgo.AirGoFlightMsApplication [logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+""2020-05-20 05:51:46  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [multipleStoresDetected] - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-05-20 05:51:46  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+""2020-05-20 05:51:46  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn] - Finished Spring Data repository scanning in 75ms. Found 1 JPA repository interfaces.
+""2020-05-20 05:51:46  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [multipleStoresDetected] - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-05-20 05:51:46  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+""2020-05-20 05:51:46  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [isStrictRepositoryCandidate] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sri.airgo.repostory.FlightsRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+""2020-05-20 05:51:46  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn] - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+""2020-05-20 05:51:47  INFO [main] org.springframework.cloud.context.scope.GenericScope [setSerializationId] - BeanFactory id=f6b89f4b-3254-3727-b70a-096e3b99ffdb
+""2020-05-20 05:51:47  INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization] - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$81a6e083] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-05-20 05:51:47  INFO [main] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [afterPropertiesSet] - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2020-05-20 05:51:47  INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f9291e81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-05-20 05:51:47  INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [initialize] - Tomcat initialized with port(s): 8082 (http)
+""2020-05-20 05:51:47  INFO [main] org.apache.catalina.core.StandardService [log] - Starting service [Tomcat]
+""2020-05-20 05:51:47  INFO [main] org.apache.catalina.core.StandardEngine [log] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+""2020-05-20 05:51:47  INFO [main] org.apache.jasper.servlet.TldScanner [log] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+""2020-05-20 05:51:47  INFO [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/InfyGoBoot] [log] - Initializing Spring embedded WebApplicationContext
+""2020-05-20 05:51:47  INFO [main] org.springframework.web.context.ContextLoader [prepareWebApplicationContext] - Root WebApplicationContext: initialization completed in 2000 ms
+""2020-05-20 05:51:47  WARN [main] com.netflix.config.sources.URLConfigurationSource [<init>] - No URLs will be polled as dynamic configuration sources.
+""2020-05-20 05:51:47  INFO [main] com.netflix.config.sources.URLConfigurationSource [<init>] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2020-05-20 05:51:47  INFO [main] com.netflix.config.DynamicPropertyFactory [getInstance] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@273a5a8a
+""2020-05-20 05:51:48  WARN [main] org.springframework.boot.actuate.endpoint.EndpointId [logWarning] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+""2020-05-20 05:51:48  INFO [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [initialize] - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-05-20 05:51:48  INFO [main] com.zaxxer.hikari.HikariDataSource [getConnection] - HikariPool-1 - Starting...
+""2020-05-20 05:51:48  WARN [main] com.zaxxer.hikari.util.DriverDataSource [<init>] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+""2020-05-20 05:51:49  INFO [main] com.zaxxer.hikari.HikariDataSource [getConnection] - HikariPool-1 - Start completed.
+""2020-05-20 05:51:49  INFO [task-1] org.hibernate.jpa.internal.util.LogHelper [logPersistenceUnitInformation] - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-05-20 05:51:49  WARN [main] com.netflix.config.sources.URLConfigurationSource [<init>] - No URLs will be polled as dynamic configuration sources.
+""2020-05-20 05:51:49  INFO [main] com.netflix.config.sources.URLConfigurationSource [<init>] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2020-05-20 05:51:49  INFO [task-1] org.hibernate.Version [logVersion] - HHH000412: Hibernate ORM core version 5.4.15.Final
+""2020-05-20 05:51:49  WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [openEntityManagerInViewInterceptor] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-05-20 05:51:49  INFO [task-1] org.hibernate.annotations.common.Version [<clinit>] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2020-05-20 05:51:49  INFO [task-1] org.hibernate.dialect.Dialect [<init>] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+""2020-05-20 05:51:50  INFO [task-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [initiateService] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-05-20 05:51:50  INFO [task-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-05-20 05:51:51  WARN [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [refresh] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'reactiveHealthIndicatorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/LegacyHealthEndpointCompatibilityConfiguration$LegacyReactiveHealthEndpointCompatibilityConfiguration.class]: Unsatisfied dependency expressed through method 'reactiveHealthIndicatorRegistry' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'reactiveHealthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/ReactiveHealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'reactiveHealthContributorRegistry' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'discoveryCompositeHealthIndicator' defined in class path resource [org/springframework/cloud/client/CommonsClientAutoConfiguration$DiscoveryLoadBalancerConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.client.discovery.health.DiscoveryCompositeHealthIndicator]: Factory method 'discoveryCompositeHealthIndicator' threw exception; nested exception is java.lang.NoSuchMethodError: org.springframework.boot.actuate.health.CompositeHealthIndicator.<init>(Lorg/springframework/boot/actuate/health/HealthAggregator;)V
+""2020-05-20 05:51:51  INFO [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [destroy] - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-05-20 05:51:51  INFO [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [shutdown] - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-05-20 05:51:51  INFO [main] com.zaxxer.hikari.HikariDataSource [close] - HikariPool-1 - Shutdown initiated...
+""2020-05-20 05:51:51  INFO [main] com.zaxxer.hikari.HikariDataSource [close] - HikariPool-1 - Shutdown completed.
+""2020-05-20 05:51:51  INFO [main] org.apache.catalina.core.StandardService [log] - Stopping service [Tomcat]
+""2020-05-20 05:51:51  INFO [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [logMessage] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2020-05-20 05:51:51 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [report] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.cloud.client.discovery.health.DiscoveryCompositeHealthIndicator.<init>(DiscoveryCompositeHealthIndicator.java:41)
+
+The following method did not exist:
+
+    org.springframework.boot.actuate.health.CompositeHealthIndicator.<init>(Lorg/springframework/boot/actuate/health/HealthAggregator;)V
+
+The method's class, org.springframework.boot.actuate.health.CompositeHealthIndicator, is available from the following locations:
+
+    jar:file:/Users/suresh/.m2/repository/org/springframework/boot/spring-boot-actuator/2.3.0.RELEASE/spring-boot-actuator-2.3.0.RELEASE.jar!/org/springframework/boot/actuate/health/CompositeHealthIndicator.class
+
+It was loaded from the following location:
+
+    file:/Users/suresh/.m2/repository/org/springframework/boot/spring-boot-actuator/2.3.0.RELEASE/spring-boot-actuator-2.3.0.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.springframework.boot.actuate.health.CompositeHealthIndicator
+
+""2020-05-20 05:51:51  WARN [main] org.springframework.boot.SpringApplication [handleRunFailure] - Unable to close ApplicationContext
+"org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:512) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:245) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:197) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:134) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:81) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:67) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:167) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:978) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at com.sri.airgo.AirGoFlightMsApplication.main(AirGoFlightMsApplication.java:12) [classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1141) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1114) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:506) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	... 18 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:814) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1282) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:297) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:276) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.postProcessBeforeInitialization(ConfigurationClassPostProcessor.java:456) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	... 40 common frames omitted
+"2020-05-20 06:27:12  INFO [main] com.sri.airgo.AirGoFlightMsApplication [logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+""2020-05-20 06:27:13  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [multipleStoresDetected] - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-05-20 06:27:13  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn] - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+""2020-05-20 06:27:13  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn] - Finished Spring Data repository scanning in 45ms. Found 1 JPA repository interfaces.
+""2020-05-20 06:27:13  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [multipleStoresDetected] - Multiple Spring Data modules found, entering strict repository configuration mode!
+""2020-05-20 06:27:13  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+""2020-05-20 06:27:13  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [isStrictRepositoryCandidate] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sri.airgo.repostory.FlightsRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+""2020-05-20 06:27:13  INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate [registerRepositoriesIn] - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+""2020-05-20 06:27:13  INFO [main] org.springframework.cloud.context.scope.GenericScope [setSerializationId] - BeanFactory id=f6b89f4b-3254-3727-b70a-096e3b99ffdb
+""2020-05-20 06:27:14  INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization] - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7c592dc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-05-20 06:27:14  INFO [main] org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [afterPropertiesSet] - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+""2020-05-20 06:27:14  INFO [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [postProcessAfterInitialization] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f3db6bc1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2020-05-20 06:27:14  INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [initialize] - Tomcat initialized with port(s): 8082 (http)
+""2020-05-20 06:27:14  INFO [main] org.apache.catalina.core.StandardService [log] - Starting service [Tomcat]
+""2020-05-20 06:27:14  INFO [main] org.apache.catalina.core.StandardEngine [log] - Starting Servlet engine: [Apache Tomcat/9.0.35]
+""2020-05-20 06:27:14  INFO [main] org.apache.jasper.servlet.TldScanner [log] - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+""2020-05-20 06:27:14  INFO [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/InfyGoBoot] [log] - Initializing Spring embedded WebApplicationContext
+""2020-05-20 06:27:14  INFO [main] org.springframework.web.context.ContextLoader [prepareWebApplicationContext] - Root WebApplicationContext: initialization completed in 1860 ms
+""2020-05-20 06:27:14  WARN [main] com.netflix.config.sources.URLConfigurationSource [<init>] - No URLs will be polled as dynamic configuration sources.
+""2020-05-20 06:27:14  INFO [main] com.netflix.config.sources.URLConfigurationSource [<init>] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2020-05-20 06:27:14  INFO [main] com.netflix.config.DynamicPropertyFactory [getInstance] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@40729f01
+""2020-05-20 06:27:14  WARN [main] org.springframework.boot.actuate.endpoint.EndpointId [logWarning] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+""2020-05-20 06:27:14  INFO [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [initialize] - Initializing ExecutorService 'applicationTaskExecutor'
+""2020-05-20 06:27:14  INFO [main] com.zaxxer.hikari.HikariDataSource [getConnection] - HikariPool-1 - Starting...
+""2020-05-20 06:27:14  WARN [main] com.zaxxer.hikari.util.DriverDataSource [<init>] - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+""2020-05-20 06:27:15  INFO [main] com.zaxxer.hikari.HikariDataSource [getConnection] - HikariPool-1 - Start completed.
+""2020-05-20 06:27:15  INFO [task-1] org.hibernate.jpa.internal.util.LogHelper [logPersistenceUnitInformation] - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2020-05-20 06:27:15  WARN [main] com.netflix.config.sources.URLConfigurationSource [<init>] - No URLs will be polled as dynamic configuration sources.
+""2020-05-20 06:27:15  INFO [main] com.netflix.config.sources.URLConfigurationSource [<init>] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+""2020-05-20 06:27:15  INFO [task-1] org.hibernate.Version [logVersion] - HHH000412: Hibernate ORM core version 5.4.15.Final
+""2020-05-20 06:27:15  WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [openEntityManagerInViewInterceptor] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2020-05-20 06:27:15  INFO [task-1] org.hibernate.annotations.common.Version [<clinit>] - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+""2020-05-20 06:27:15  INFO [task-1] org.hibernate.dialect.Dialect [<init>] - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+""2020-05-20 06:27:16  INFO [task-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [initiateService] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2020-05-20 06:27:16  INFO [task-1] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [buildNativeEntityManagerFactory] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2020-05-20 06:27:16  WARN [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [refresh] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'reactiveHealthIndicatorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/LegacyHealthEndpointCompatibilityConfiguration$LegacyReactiveHealthEndpointCompatibilityConfiguration.class]: Unsatisfied dependency expressed through method 'reactiveHealthIndicatorRegistry' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'reactiveHealthContributorRegistry' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/ReactiveHealthEndpointConfiguration.class]: Unsatisfied dependency expressed through method 'reactiveHealthContributorRegistry' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'discoveryCompositeHealthIndicator' defined in class path resource [org/springframework/cloud/client/CommonsClientAutoConfiguration$DiscoveryLoadBalancerConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.client.discovery.health.DiscoveryCompositeHealthIndicator]: Factory method 'discoveryCompositeHealthIndicator' threw exception; nested exception is java.lang.NoSuchMethodError: org.springframework.boot.actuate.health.CompositeHealthIndicator.<init>(Lorg/springframework/boot/actuate/health/HealthAggregator;)V
+""2020-05-20 06:27:16  INFO [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [destroy] - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2020-05-20 06:27:16  INFO [main] org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [shutdown] - Shutting down ExecutorService 'applicationTaskExecutor'
+""2020-05-20 06:27:16  INFO [main] com.zaxxer.hikari.HikariDataSource [close] - HikariPool-1 - Shutdown initiated...
+""2020-05-20 06:27:16  INFO [main] com.zaxxer.hikari.HikariDataSource [close] - HikariPool-1 - Shutdown completed.
+""2020-05-20 06:27:16  INFO [main] org.apache.catalina.core.StandardService [log] - Stopping service [Tomcat]
+""2020-05-20 06:27:16  INFO [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [logMessage] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+""2020-05-20 06:27:16 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [report] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.springframework.cloud.client.discovery.health.DiscoveryCompositeHealthIndicator.<init>(DiscoveryCompositeHealthIndicator.java:41)
+
+The following method did not exist:
+
+    org.springframework.boot.actuate.health.CompositeHealthIndicator.<init>(Lorg/springframework/boot/actuate/health/HealthAggregator;)V
+
+The method's class, org.springframework.boot.actuate.health.CompositeHealthIndicator, is available from the following locations:
+
+    jar:file:/Users/suresh/.m2/repository/org/springframework/boot/spring-boot-actuator/2.3.0.RELEASE/spring-boot-actuator-2.3.0.RELEASE.jar!/org/springframework/boot/actuate/health/CompositeHealthIndicator.class
+
+It was loaded from the following location:
+
+    file:/Users/suresh/.m2/repository/org/springframework/boot/spring-boot-actuator/2.3.0.RELEASE/spring-boot-actuator-2.3.0.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.springframework.boot.actuate.health.CompositeHealthIndicator
+
+""2020-05-20 06:27:16  WARN [main] org.springframework.boot.SpringApplication [handleRunFailure] - Unable to close ApplicationContext
+"org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:512) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:245) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:197) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:134) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:81) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:67) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:167) ~[spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:978) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at com.sri.airgo.AirGoFlightMsApplication.main(AirGoFlightMsApplication.java:12) [classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251) ~[spring-aop-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1141) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1114) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:506) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	... 18 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:814) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1282) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:297) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:276) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.postProcessBeforeInitialization(ConfigurationClassPostProcessor.java:456) ~[spring-context-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	... 40 common frames omitted
